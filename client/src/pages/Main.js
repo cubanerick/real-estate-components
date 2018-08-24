@@ -6,9 +6,9 @@ import LandingPage from "./LandingPage";
 
 const Main = () =>(
     <Router>
-      <div>
+      
         <Route exact path="/" component={LandingPage} />
-      </div>
+      
     </Router>
 );
   

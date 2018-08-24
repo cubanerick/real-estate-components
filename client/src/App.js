@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import Main from "./components/Main";
+import {ParallaxProvider} from "react-scroll-parallax";
+import Main from "./pages/Main";
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Main/>
+      <ParallaxProvider>
+        <Main/>
+      </ParallaxProvider>
     );
   }
 }
