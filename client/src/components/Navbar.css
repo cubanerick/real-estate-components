@@ -27,8 +27,6 @@ a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-
-
 .container {
     max-width: 100% !important;
     padding: 0;
@@ -40,7 +38,11 @@ a:hover {
     width: 100%;
 }
 
-/* div.hamburger-row{
+.nav-row{
+    width: 100%
+}
+
+div.hamburger-row{
     display: none
 }
 
@@ -53,4 +55,5 @@ a:hover {
     div.hamburger-row{
         display: block;
     }
-} */
+
+}
