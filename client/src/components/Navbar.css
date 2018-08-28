@@ -46,14 +46,27 @@ div.hamburger-row{
     display: none
 }
 
-@media screen and (max-width: 575px){
+img.narrow {
+    width: 60%;
+    height: 2em
+}
+
+div.hamburger-row.narrow{
+    display: block;
+}
+
+.toggle {
+    display: none;
+}
+
+/* @media screen and (max-width: 575px){
     img.hamburger{
-         width: 60%;
-         height: 2em
+        width: 60%;
+        height: 2em
     }
 
     div.hamburger-row{
         display: block;
     }
 
-}
+} */
