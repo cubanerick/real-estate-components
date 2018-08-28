@@ -22,6 +22,14 @@ a {
     
 }
 
+.narrow{
+    display: none
+}
+
+.wide{
+    display: block
+}
+
 a:hover {
     font-weight: bold;
     cursor: pointer;
